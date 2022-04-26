@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clone</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>home</li>
+        <li>service</li>
+        <li>contact</li>
+        <li>about</li>
+    </ul>
+    <script>
+        let menu = document.getElementById('menu');
+
+        let cloneElm = menu.cloneNode(true);
+        // console.log(cloneElm);
+        cloneElm.id = 'menu2';
+        document.body.appendChild(cloneElm);
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 40px;
+    color: rgb(1, 22, 40);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.grandparent{
+    background-color: aqua;
+    color: black;
+}
+.parent{
+    background-color: blueviolet;
+    color: azure;
+}
+.child{
+    background-color: cornflowerblue;
+    color: black;
+}

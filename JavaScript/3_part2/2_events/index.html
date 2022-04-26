@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myWebsite</title>
+  
+    <!-- <script src="1_click.js" defer></script> -->
+    <!-- <script src="2_this_eventListner_callback.js" defer></script> -->
+    <script src="7_keypress_mouseover.js" defer></script>
+    <link rel="stylesheet" href="1_style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="container nav">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"> <a href="#home">Home</a> </li>
+                <li class="nav-item"> <a href="">todo</a> </li>
+                <li class="nav-item"> <a href="">sign up</a> </li>
+
+            </ul>
+        </nav>
+        <div class="headline">
+            <h1 id="main-heading">Manage your task <span style="display: none;">Hello</span></h1>
+            <button class="btn btn-headline">learn more</button>
+        </div>
+    </header>
+    <section class="todo-section container">
+        <h2>this is our plan</h2>
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add Todo">
+            <input type="submit" value="Add todo" class="btn">
+        </form>
+    </section>
+    <section class="section-signup container">
+        <h2>Sign up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">confirmPassword</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="text" name="Phone" id="Phone">
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <div class="form-group">
+                <label for="About">About yourself</label>
+                <textarea name="About" id="About" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+    
+</body>
+
+</html>
